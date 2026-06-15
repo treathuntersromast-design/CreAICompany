@@ -1,0 +1,43 @@
+# API keys / secrets — どこに置かれても誤コミットを防ぐ防御層
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.toml
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 大きなバイナリ（スパイク MVP の入力素材を想定）
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.aac
+*.ogg
+
+# 画像（スクリーンショット等。ダミーは sample_data/ に置く運用）
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+!sample_data/**/dummy_*.png
+!sample_data/**/dummy_*.jpg
+
+# 出力物
+output/
+*.log

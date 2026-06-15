@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "Midnight Drive",
+    "artist": "Aoi Tsukimi",
+    "album": "Midnight Drive",
+    "isrc_placeholder": "JP-XXX-26-00001",
+    "language": "ja",
+    "bpm_estimate": 112,
+    "genre_primary": "Electronic",
+    "genre_tags": ["City Pop", "Synthwave", "Chillwave", "J-Pop"],
+    "mood_tags": ["Nocturnal", "Melancholic", "Cinematic", "Nostalgic"],
+    "credits": [
+      {"role": "Composer", "name": "Aoi Tsukimi"},
+      {"role": "Lyricist", "name": "Aoi Tsukimi"},
+      {"role": "Vocalist", "name": "Aoi Tsukimi"},
+      {"role": "Arranger", "name": "Aoi Tsukimi"}
+    ],
+    "copyright_notice": "© 2026 Aoi Tsukimi",
+    "lyrics_license": "original",
+    "release_date": "2026-06-30",
+    "explicit_content": false
+  },
+  "store_payloads": {
+    "spotify_for_artists": {
+      "header": "track_title,primary_artist,isrc,primary_genre,language,explicit,release_date",
+      "row": "Midnight Drive,Aoi Tsukimi,JP-XXX-26-00001,Electronic,ja,false,2026-06-30"
+    },
+    "tunecore_japan": {
+      "header": "曲名,アーティスト名,ISRC,ジャンル,言語,クレジット,著作権表示,リリース日",
+      "row": "Midnight Drive,Aoi Tsukimi,JP-XXX-26-00001,エレクトロニック,日本語,\"作詞作曲編曲歌唱: Aoi Tsukimi\",© 2026 Aoi Tsukimi,2026-06-30"
+    },
+    "distrokid": {
+      "header": "Track Title,Artist Name,ISRC,Genre,Subgenre,Language,Explicit,Release Date,Songwriter",
+      "row": "Midnight Drive,Aoi Tsukimi,JP-XXX-26-00001,Electronic,Synthwave,Japanese,No,2026-06-30,Aoi Tsukimi"
+    }
+  },
+  "summary": "通常 1 曲あたり 30〜60 分かかるメタデータ整理を、AI が約 8 秒で完了しました。ジャンルは『シティポップ寄りのエレクトロニカ』というヒントから Electronic を主軸に、City Pop / Synthwave / Chillwave を補助タグとして配置しています。雰囲気タグは『夜の高速道路、ネオン、メランコリック』を Nocturnal / Cinematic / Nostalgic に翻訳しました。**ご確認いただきたい点**: (1) ISRC はプレースホルダのため、ご自身で正式採番してください。(2) クレジット情報が全て本人名義になっているかご確認ください。(3) 歌詞のオリジナル性（サンプリング素材の使用有無等）を最終確認してください。"
+}
