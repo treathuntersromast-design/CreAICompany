@@ -1,6 +1,6 @@
 {
   "enabledPlugins": {
-    "cre-ai-team@cre-tools": true
+    "cre-ai-team@cre-tools": false
   },
   "permissions": {
     "deny": [
@@ -11,7 +11,30 @@
       "Edit(.env)",
       "Edit(.env.*)",
       "Edit(**/.env)",
-      "Edit(**/.env.*)"
+      "Edit(**/.env.*)",
+      "Grep(.env)",
+      "Grep(.env.*)",
+      "Grep(**/.env)",
+      "Grep(**/.env.*)",
+      "Bash(cat .env*)",
+      "Bash(cat *.env*)",
+      "Bash(cat */.env*)",
+      "Bash(type .env*)",
+      "Bash(type *.env*)",
+      "Bash(head .env*)",
+      "Bash(tail .env*)",
+      "Bash(more .env*)",
+      "Bash(findstr * .env*)",
+      "PowerShell(Get-Content .env*)",
+      "PowerShell(Get-Content *.env*)",
+      "PowerShell(gc .env*)",
+      "PowerShell(cat .env*)",
+      "PowerShell(type .env*)",
+      "Read(**/*.pem)",
+      "Grep(**/*.pem)",
+      "Read(**/.credentials.json)",
+      "Read(**/*credentials*)",
+      "Grep(**/*credentials*)"
     ]
   }
 }
